@@ -23,6 +23,9 @@ Intro
 
 Useful utility functions for use with the JSON package.
 
+Functions
+---------
+
 ### func DecodeFromFile(filename string, object interface{}) (err os.Error)
 
 Opens the file given by filename, decoding the contents into object. Object must be a pointer.
