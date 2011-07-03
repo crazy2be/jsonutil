@@ -26,8 +26,4 @@ Useful utility functions for use with the JSON package.
 Functions
 ---------
 
-### func DecodeFromFile(filename string, object interface{}) (err os.Error)
-
-Opens the file given by filename, decoding the contents into object. Object must be a pointer.
-
-### func EncodeToFile(filename string, object interface{}) (err os.Error)
+Full function reference available at http://gopkgdoc.appspot.com/pkg/github.com/crazy2be/perms.
