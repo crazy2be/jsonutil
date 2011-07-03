@@ -26,4 +26,4 @@ Useful utility functions for use with the JSON package.
 Functions
 ---------
 
-Full function reference available at http://gopkgdoc.appspot.com/pkg/github.com/crazy2be/perms.
+Full function reference available at http://gopkgdoc.appspot.com/pkg/github.com/crazy2be/jsonutil.
