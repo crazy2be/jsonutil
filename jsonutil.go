@@ -1,12 +1,12 @@
 package jsonutil
 
 import (
+	"encoding/json"
 	"fmt"
-	"json"
 	"os"
 )
 
-func DecodeFromFile(filename string, object interface{}) (err os.Error) {
+func DecodeFromFile(filename string, object interface{}) (err error) {
 	var file *os.File
 	file, err = os.Open(filename)
 	if err != nil {
@@ -22,7 +22,7 @@ func DecodeFromFile(filename string, object interface{}) (err os.Error) {
 	return
 }
 
-func EncodeToFile(filename string, object interface{}) (err os.Error) {
+func EncodeToFile(filename string, object interface{}) (err error) {
 	var file *os.File
 	file, err = os.OpenFile(filename, os.O_WRONLY|os.O_CREATE, 0755)
 	if err != nil {
